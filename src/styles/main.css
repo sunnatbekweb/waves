@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav__list--item-link {
+    color: #0F0F0F;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav__list--item-link:hover {
+    color: #BDB0EC;
+}
+
+.nav__list--item-link:focus {
+    color: #8447E9;
+}
+
+.container_news {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+
+.btn_white:hover {
+    background: #8447E9;
+    color: #F5F5F5;
+}
+
+.btn_white:focus {
+    background: #8447E9;
+    color: #F5F5F5;
+}
+
+.btn_white2:hover {
+    background-color: #F5F5F5;
+    color: #8447E9;
+}
+
+i :hover {
+    color: #F5F5F5;
+}
+
+.btn_color:hover {
+    background: #BDB0EC;
+    color: #8447E9;
+}
+
+.btn_color:focus {
+    background: #8447E9;
+    color: #F5F5F5;
+}
